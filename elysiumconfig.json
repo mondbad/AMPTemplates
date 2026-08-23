@@ -34,7 +34,7 @@
         "InputType": "number",
         "MinValue": 1,
         "MaxValue": 24,
-        "ParamFieldName": "MaxServerPlayers",
+        "ParamFieldName": "$MaxUsers",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
         "DefaultValue": "6",
