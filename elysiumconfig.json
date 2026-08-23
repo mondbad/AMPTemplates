@@ -1,0 +1,77 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Echoes of Elysium:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the name of the server as shown in the Steam server browser",
+        "Keywords": "name,ServerName",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "MaxLength": 64,
+        "ParamFieldName": "ServerName",
+        "DefaultValue": "AMP Powered Echoes of Elysium Server"
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Echoes of Elysium:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the password for players to join the server. Default is no password",
+        "Keywords": "server,password,ServerPassword",
+        "FieldName": "ServerPassword",
+        "InputType": "Password",
+        "ParamFieldName": "ServerPassword",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Player Limit",
+        "Category": "Echoes of Elysium:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the maximum number of players that may connect to the server at one time",
+        "Keywords": "maximum,players,limit,MaxServerPlayers",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 24,
+        "ParamFieldName": "MaxServerPlayers",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "6",
+        "Placeholder": "6",
+        "Suffix": "players"
+    },
+    {
+        "DisplayName": "Game Data Directory",
+        "Category": "Echoes of Elysium:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Directory containing the dedicated server game data.",
+        "Keywords": "game,data,directory",
+        "FieldName": "GameDataDir",
+        "InputType": "text",
+        "ParamFieldName": "gameDataDir",
+        "DefaultValue": "./GameData/"
+    },
+    {
+        "DisplayName": "World Data Directory",
+        "Category": "Echoes of Elysium:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Directory used for the server world/save data.",
+        "Keywords": "world,save,directory",
+        "FieldName": "WorldDataDir",
+        "InputType": "text",
+        "ParamFieldName": "worldDataDir",
+        "DefaultValue": "./world/"
+    },
+    {
+        "DisplayName": "Logs Directory",
+        "Category": "Echoes of Elysium:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Directory used for dedicated server logs.",
+        "Keywords": "logs,directory",
+        "FieldName": "LogsDir",
+        "InputType": "text",
+        "ParamFieldName": "logsDir",
+        "DefaultValue": "./logs/"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "UpdateStageName": "Echoes of Elysium Download",
+        "UpdateStageDescription": "Install / Update",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "2915100",
+        "UpdateSourceArgs": "\t2644050",
+        "ForceDownloadPlatform": "Linux"
+    }
+]
